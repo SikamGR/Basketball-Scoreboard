@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url('fonts/CursedTimerUlil-Aznm.ttf')
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+button {
+    background: transparent;
+
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+
+    font-family: 'Cursed Timer', sans-serif;
+    color: #9AABD8;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button:hover {
+    color: aqua;
+}
+
+.container {
+    display: flex;    
+    justify-content: space-around;
+}
+
+.reset-btn {
+    margin-top: auto;
+}
+
+
+/* =================================================================== HOME STYLE =================================================================== */
+
+#home-text {
+    text-align: center;
+    margin-bottom: 5px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    color: #EEEEEE;
+}
+
+#home-score {
+    
+
+    font-family: 'Cursed Timer ULIL';
+    font-size: 600%;
+    line-height: 141%;
+    margin: 10% 0%;
+    text-align: center;
+    color: #F94F6D;
+    background: black;
+    border-radius: 7px;
+}
+
+/* =================================================================== GUEST STYLE =================================================================== */
+
+#guest-text {
+    text-align: center;
+    margin-bottom: 5px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    color: #EEEEEE;
+}
+
+#guest-score {
+    font-family: 'Cursed Timer ULIL';
+    font-size: 600%;
+    line-height: 141%;
+    margin: 10% 0%;
+    text-align: center;
+    color: #F94F6D;
+    background: black;
+    border-radius: 7px;
+}
